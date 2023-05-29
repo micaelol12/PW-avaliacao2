@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  top: 0;
+}
+
+.nav {
+  margin: auto;
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 70, 0);
+}
+
+.active {
+  color: green;
+}
