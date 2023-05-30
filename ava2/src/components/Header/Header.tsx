@@ -4,11 +4,15 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header className={styles.header}>
+      <div className={styles.logo}>
+        <img src="/logo.svg" alt="logo da imagine" />
+        <span>Imagine</span>
+      </div>
       <nav className={styles.nav}>
         <NavLink
           to={"/"}
           className={({ isActive, isPending }) =>
-          `${styles.link} ${isActive ? styles.active : ""}`
+            `${styles.link} ${isActive ? styles.active : ""}`
           }
         >
           Home

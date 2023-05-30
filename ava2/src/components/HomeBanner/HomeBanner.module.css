@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.welcome{
+    font-size: 5em;
+}
+
+.img{
+    width: 700px;
+}

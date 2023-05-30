@@ -4,7 +4,10 @@ import styles from "./EmployerCard.module.css";
 const EmployerCard: React.FC<IEmployer> = (props) => {
   return (
     <div className={styles.card}>
+      <div className={styles["img-container"]}>
+
       <img src={props.foto} className={styles.img}></img>
+      </div>
       <div className={styles.info}>
         <span className={styles.name}>{props.nome}</span>
         <div>

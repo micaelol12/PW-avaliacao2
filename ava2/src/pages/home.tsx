@@ -1,5 +1,7 @@
+import HomeBanner from "../components/HomeBanner/HomeBanner"
+
 const Home = () => {
-    return <>Home page</>
+    return <HomeBanner/>
 }
 
 export default Home
