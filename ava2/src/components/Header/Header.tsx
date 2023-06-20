@@ -25,6 +25,14 @@ const Header = () => {
         >
           Funcionarios
         </NavLink>
+        <NavLink
+          to={"/cadastro"}
+          className={({ isActive }) =>
+            `${styles.link} ${isActive ? styles.active : ""}`
+          }
+        >
+          Cadastro 2
+        </NavLink>
       </nav>
     </header>
   );

@@ -1,0 +1,14 @@
+.notificacao{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.green {
+    background-color: rgb(174, 233, 174);
+    border: 1px solid green;
+}
+
+.red {
+    background-color: rgb(233, 104, 104);
+    border: 1px solid rgb(211, 12, 12);
+}

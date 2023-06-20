@@ -6,6 +6,7 @@ import { RouterProvider,createBrowserRouter } from 'react-router-dom';
 import Layout from './pages/layout';
 import Home from './pages/home';
 import Employers from './pages/employers';
+import Cadastro from './pages/cadastro';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/employers',
         element:<Employers/>
+      },
+      {
+        path: '/cadastro',
+        element:<Cadastro/>
       }
     ]
   },
